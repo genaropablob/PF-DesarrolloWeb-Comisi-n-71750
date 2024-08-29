@@ -1,0 +1,37 @@
+// _main.scss
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; // Fondo blanco
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+main h1, main h2, main h3, main h4 {
+  color: #9f0000; // Color rojo para todos los títulos
+}
+
+main p {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 15px; // Espacio entre párrafos
+}
+
+main div {
+  margin: 20px 0;
+  text-align: center;
+}
+
+main div img {
+  width: 100%;
+  max-width: 600px; // Ajusta el tamaño máximo de las imágenes
+  height: auto;
+}
+
+main strong, main em {
+  display: block;
+  margin: 20px 0; // Espacio antes y después de elementos <strong> y <em>
+}
