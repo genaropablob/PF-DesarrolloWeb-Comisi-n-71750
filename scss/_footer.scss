@@ -1,0 +1,31 @@
+// _footer.scss
+
+footer {
+  background-color: #9f0000; // Fondo en rojo oscuro
+  color: #000; // Texto en negro
+  padding: 20px;
+  text-align: center;
+
+  h4 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #000; // Color del título en negro
+  }
+
+  p {
+    margin: 0;
+    font-size: 1em;
+    color: #000; // Color del párrafo en negro
+  }
+
+  a {
+    color: #000; // Enlaces en negro
+    text-decoration: none;
+    margin: 0 10px;
+
+    &:hover {
+      color: #fff; // Enlaces en blanco al pasar el cursor
+      text-decoration: underline;
+    }
+  }
+}
