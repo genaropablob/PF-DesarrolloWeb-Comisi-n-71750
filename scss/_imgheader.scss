@@ -1,0 +1,92 @@
+@import 'variables';
+@import 'animations';
+
+.imgheader-common {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
+.imgheader-common .imgheadercont {
+    background: yellow;
+    display: inline-block;
+    position: relative;
+}
+
+.imgheader-common .imgheadercont .logoheader {
+    width: 100%;
+    max-width: 200px;
+}
+
+.imgheader-common .imgheadercont .pelota {
+    position: absolute;
+    width: 11%;
+    top: 49%;
+    left: 45%;
+    animation-name: giraPelota;
+    animation-duration: $animation-duration;
+    animation-iteration-count: infinite;
+    animation-timing-function: $animation-timing-function;
+}
+
+#imgheader {
+    @extend .imgheader-common;
+}
+
+#imgheader img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+#imgheader h1, #imgheader p {
+    color: #000;
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+}
+
+#imgheader-nosotros {
+    @extend .imgheader-common;
+    background-color: #f4f4f4;
+}
+
+#imgheader-nosotros img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#imgheader-nosotros h1, #imgheader-nosotros p {
+    color: #000;
+    font-family: $font-family;
+    margin: 0.5rem 0;
+    padding: 0;
+}
+
+/* Nuevos estilos para showroomespecial en nosotros.html */
+#showroomespecial {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+#showroomespecial img {
+    width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto;
+}
+
+/* Nuevos estilos para show1 en index.html */
+#show1 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+#show1 img {
+    width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto;
+}
